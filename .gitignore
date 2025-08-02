@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+
+# macOS application-specific files
+*.icloud # iCloud generated files
+
+# Common development files/folders
+node_modules/
+build/
+dist/
+target/
+*.log
+*.swp # Vim swap files
+# .env # Environment variables
