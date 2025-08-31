@@ -1,53 +1,110 @@
 ---
-# Banner
+menu:
+  main:
+    name: "Home"
+    weight: 1
+
+############################### Banner ##############################
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  enable: true
+  bg_image: "images/slider-bg.jpg"
+  bg_overlay: true
+  title: "A Digital Marketing <br/> & Design Agency"
+  content: "We love the Web and the work we do.We work closely with our clients to deliver  the best possible solutions for their needs"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Discover Our Project"
+    link: "project"
 
-# Features
-features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
-    bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
+############################# About #################################
+about:
+  enable: true
+  title: "About Us"
+  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
+  image: "images/wrapper-img.png"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
+######################### Portfolio ###############################
+portfolio:
+  enable: true
+  bg_image: "images/feature-bg.jpg"
+  title: "WE BELIEVE IN GREAT IDEAS"
+  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+
+
+  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  "
+  button:
+    enable: true
+    label: "View Works"
+    link: "project"
+
+
+############################# Service ############################
+service:
+  enable: true
+  # service content comes from "service.md" file
+
+
+############################ call to action ###########################
+cta:
+  enable: true
+  bg_image: "images/call-to-action-bg.jpg"
+  title: "We design delightful digital experiences."
+  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  button:
+    enable: true
+    label: "Tell Us Your Story"
+    link: "contact"
+
+############################# Funfacts ###############################
+funfacts:
+  enable: true
+  title: "Fun Facts About Us"
+  description: "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  funfact_item:
+  # funfacts item loop
+  - icon: "ion-ios-chatboxes-outline" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Cups Of Coffee"
+    count: "99"
+
+  # funfacts item loop
+  - icon: "ion-ios-glasses-outline" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Article Written"
+    count: "45"
+
+  # funfacts item loop
+  - icon: "ion-ios-compose-outline" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Projects Completed"
+    count: "125"
+
+  # funfacts item loop
+  - icon: "ion-ios-timer-outline" #ionicon pack v2: https://ionicons.com/v2/
+    name: "Combined Projects"
+    count: "200"
+
+  testimonial_slider:
+  # testimonial item loop
+  - name: "Raymond Roy"
+    image: "images/clients/avater-1.jpg"
+    designation: "CEO-Themefisher"
+    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+
+  # testimonial item loop
+  - name: "Randi Renin"
+    image: "images/clients/avater-1.jpg"
+    designation: "CEO-Themefisher"
+    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+
+  # testimonial item loop
+  - name: "Rose Rio"
+    image: "images/clients/avater-3.jpg"
+    designation: "CEO-Themefisher"
+    content: "This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd."
+
+
 ---
