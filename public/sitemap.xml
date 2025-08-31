@@ -11,6 +11,27 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/how-to/</loc>
+    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/english/blog/</loc>
+    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/english/blog/date-i18n/</loc>
+    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/technical-assistance/</loc>
+    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/technology/</loc>
+    <lastmod>2021-04-01T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/advice/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
@@ -21,9 +42,6 @@
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/artificial-intelligence/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/company/</loc>
@@ -50,9 +68,6 @@
     <loc>http://localhost:1313/english/blog/blog-post-6/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/english/blog/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/legacy-support/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
@@ -65,12 +80,6 @@
     <loc>http://localhost:1313/tags/retro/</loc>
     <lastmod>2018-09-24T11:07:10+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/technology/</loc>
-    <lastmod>2018-09-24T11:07:10+06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/english/message_sent/</loc>
   </url><url>
     <loc>http://localhost:1313/english/about/</loc>
@@ -78,6 +87,8 @@
     <loc>http://localhost:1313/english/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/english/author/john-doe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/english/author/mark-dinn/</loc>
   </url><url>
     <loc>http://localhost:1313/english/pricing/</loc>
   </url><url>

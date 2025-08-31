@@ -6,8 +6,15 @@
     <description>Recent content in Latest News on Out Here Social Club</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Sep 2018 11:07:10 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 01 Apr 2021 00:00:00 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/english/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pretty-print dates</title>
+      <link>http://localhost:1313/english/blog/date-i18n/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/english/blog/date-i18n/</guid>
+      <description>&lt;p&gt;To write out an &lt;a href=&#34;https://en.wikipedia.org/wiki/ISO_8601&#34;&gt;ISO 8601&lt;/a&gt; timestamp in the current language, you can use the &lt;code&gt;date_l10n&lt;/code&gt; shortcode:&lt;/p&gt;&#xA;&lt;p&gt;Writing&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% date_l10n &amp;#34;2020-10-20&amp;#34; %}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will result in&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&#xA;October 20, 2020&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can optionally specify a different &lt;a href=&#34;https://gohugo.io/functions/dateformat/#datetime-formatting-layouts&#34;&gt;formatting layout&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;p&gt;For example, the following&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% date_l10n &amp;#34;2020-10-20&amp;#34; &amp;#34;:date_short&amp;#34; %}}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;will result in&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&#xA;10/20/20&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>How To Wear Bright Shoes</title>
       <link>http://localhost:1313/english/blog/blog-post-1/</link>
